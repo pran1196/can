@@ -9,4 +9,7 @@ export class NewPageComponent implements OnInit {
     constructor() {}
 
     ngOnInit() {}
+    check(){
+alert('submit')
+    }
 }

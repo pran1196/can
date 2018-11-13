@@ -7,7 +7,7 @@ import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AddRoleComponent } from './add-role/add-role.component';
+//import { AddRoleComponent } from './add-role/add-role.component';
 
 @NgModule({
     imports: [
@@ -16,6 +16,6 @@ import { AddRoleComponent } from './add-role/add-role.component';
         TranslateModule,
         NgbDropdownModule.forRoot()
     ],
-    declarations: [LayoutComponent, SidebarComponent, HeaderComponent, AddRoleComponent]
+    declarations: [LayoutComponent, SidebarComponent, HeaderComponent]
 })
 export class LayoutModule {}

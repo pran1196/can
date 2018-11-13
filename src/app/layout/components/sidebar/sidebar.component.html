@@ -60,9 +60,13 @@
             <i class="fa fa-file-o"></i>&nbsp;
             <span>{{ 'Blank Page' | translate }}</span>
         </a>
-        <a [routerLink]="['/new-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        <a [routerLink]="['/Create-User']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-user"></i>&nbsp;
-            <span>{{ 'Add Role' | translate }}</span>
+            <span>{{ 'Create User' | translate }}</span>
+        </a>
+        <a [routerLink]="['/Create-Role']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-user"></i>&nbsp;
+            <span>{{ 'Create New Role' | translate }}</span>
         </a>
         <a class="list-group-item" [routerLink]="['/login']" (click)="onLoggedout()">
             <i class="fa fa-fw fa-power-off"></i> {{ 'Log Out' | translate }}
