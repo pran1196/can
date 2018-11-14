@@ -4,7 +4,7 @@
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;
             <span>{{ 'Dashboard' | translate }}</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        <!-- <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
             <span>{{ 'Charts' | translate }}</span>
         </a>
@@ -59,14 +59,18 @@
         <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-file-o"></i>&nbsp;
             <span>{{ 'Blank Page' | translate }}</span>
-        </a>
-        <a [routerLink]="['/Create-User']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        </a> -->
+        <!-- <a [routerLink]="['/Create-User']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-user"></i>&nbsp;
             <span>{{ 'Create User' | translate }}</span>
-        </a>
+        </a> -->
         <a [routerLink]="['/Create-Role']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-user"></i>&nbsp;
             <span>{{ 'Create New Role' | translate }}</span>
+        </a>
+        <a [routerLink]="['/Users']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-user"></i>&nbsp;
+            <span>{{ 'Users' | translate }}</span>
         </a>
         <a class="list-group-item" [routerLink]="['/login']" (click)="onLoggedout()">
             <i class="fa fa-fw fa-power-off"></i> {{ 'Log Out' | translate }}

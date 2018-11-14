@@ -18,6 +18,9 @@ const routes: Routes = [
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' },
             { path: 'Create-User', loadChildren: './new-page/new-page.module#NewPageModule' },
             { path: 'Create-Role', loadChildren: './add-role/add-role.module#AddRoleModule' },
+            { path: 'Users', loadChildren: './users/users.module#UsersModule' },
+            { path: 'Edit-Users', loadChildren: './editusers/editusers.module#EditusersModule' },
+            { path: 'View-Users', loadChildren: './viewusers/viewusers.module#ViewusersModule' },
         ]
     }
 ];
