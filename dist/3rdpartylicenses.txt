@@ -492,6 +492,10 @@ MIT
 MIT
 MIT
 
+@angular/http@6.1.10
+MIT
+MIT
+
 @ngx-translate/core@10.0.2
 MIT
 MIT
